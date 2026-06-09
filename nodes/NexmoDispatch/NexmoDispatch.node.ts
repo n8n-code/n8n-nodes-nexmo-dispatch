@@ -3,14 +3,14 @@ import { defaultDescription } from './resources/default';
 
 export class NexmoDispatch implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'nexmo-dispatch',
+		displayName: 'Nexmo Dispatch',
 		name: 'N8nDevNexmoDispatch',
 		icon: { light: 'file:./nexmo-dispatch.svg', dark: 'file:./nexmo-dispatch.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'Dispatch API enables the developer to specify a multiple message workflow. A workflow follows a template. The first one we are adding is the failover template. The failover template instructs t..',
-		defaults: { name: 'nexmo-dispatch' },
+		defaults: { name: 'Nexmo Dispatch' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

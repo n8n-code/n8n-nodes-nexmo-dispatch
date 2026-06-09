@@ -1,6 +1,6 @@
 {
   "name": "@n8n-dev/n8n-nodes-nexmo-dispatch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dispatch API enables the developer to specify a multiple message workflow. A workflow follows a template. The first one we are adding is the failover template. The failover template instructs t..",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-nexmo-dispatch",
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "nexmo-dispatch"

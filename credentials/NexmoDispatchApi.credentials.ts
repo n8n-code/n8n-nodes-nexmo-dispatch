@@ -8,7 +8,7 @@ import type {
 export class NexmoDispatchApi implements ICredentialType {
 	name = 'N8nDevNexmoDispatchApi';
 
-	displayName = 'nexmo-dispatch API';
+	displayName = 'Nexmo Dispatch API';
 
 	icon: Icon = { light: 'file:../nodes/NexmoDispatch/nexmo-dispatch.svg', dark: 'file:../nodes/NexmoDispatch/nexmo-dispatch.dark.svg' };
 
@@ -22,7 +22,7 @@ export class NexmoDispatchApi implements ICredentialType {
 			default: 'https://api.nexmo.com/v0.1/dispatch',
 			required: true,
 			placeholder: 'https://api.nexmo.com/v0.1/dispatch',
-			description: 'The base URL of your nexmo-dispatch API server',
+			description: 'The base URL of your Nexmo Dispatch API server',
 		},
 		{
 			displayName: 'API Key',

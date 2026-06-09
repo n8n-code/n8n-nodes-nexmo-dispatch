@@ -53,9 +53,12 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Post create a workflow |
+<details>
+<summary><b>Default</b> (1 operations)</summary>
+
+- Post Create a workflow
+
+</details>
 
 ---
 
